@@ -1,0 +1,576 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255); 
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.452);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left:0;
+    right:0;
+    position: fixed;
+    height:flex;
+    min-height:100px;
+    height: 105px; 
+}
+.rightnav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-color: yellow;
+    border-radius: 5px;
+}
+.rightnav a:hover{
+    background-color:#e8e8e8a2;
+    transition: 0.5s;
+    box-shadow: 5px 10px 9px rgb(0, 0, 0);
+    color:#800020;
+}
+.leftnav a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-color: yellow;
+    border-radius: 5px;
+}
+.leftnav a:hover{
+    background-color:#e8e8e8a2;
+    transition: 0.5s;
+    box-shadow: 5px 10px 9px rgb(0, 0, 0);
+    color:#800020;
+}
+
+.ramadan{
+    width:245px;
+}
+
+
+/*side bar*/
+#mySidenav a {
+    position: fixed; 
+    left: -105px; 
+    transition: 0.3s; 
+    padding: 15px;
+    margin-top: 100px;
+    width: 200px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: white; 
+    border-radius: 0 5px 5px 0; 
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  .sidenav a{
+    margin-bottom: 5px;
+  }
+  .aboute {
+    top: 20px;
+    background-color: #a118788c;
+  }
+  
+  .blog {
+    top: 80px;
+    background-color: #3d02c78c;
+  }
+  
+  .projects {
+    top: 140px;
+    background-color: #2cf5688c; 
+  }
+  
+  .contact {
+    top: 200px;
+    background-color: #8811068c
+  }
+
+/* MAIN*/
+.welcome{
+    height:1000px;
+    background: url("https://www.odt.co.nz/sites/default/files/styles/odt_landscape_extra_large_4_3/public/story/2018/10/gettyimages-869163826.jpg?itok=Eaisj0XZ");
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-weight:1000;
+    color:rgba(0, 0, 0, 0.644);
+    margin-bottom: 5px;
+}
+.welcome:hover{
+    background: url("img/pexels-bess-hamiti-35537.jpg");
+    background-size:cover;
+    transition: ease-in-out 5s;
+}
+.welpara{
+    display:flex;
+    flex-direction: column;
+    color:#101820ff;
+    font-size:20px;
+    font-weight: 500;
+    background-color:rgba(2, 0, 107, 0.733);
+}
+.welpara p{
+    min-width: 500px;
+}
+
+.hot{
+    display: flex;
+    justify-content: center;
+    color:#f4df4eff;
+    background-color: #101820ff;
+    font-size: 50px;
+}
+.topic{
+    display:flex;
+    flex-direction: row;
+    min-width: 400px;
+    height:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topics{
+    display:flex;
+    width:flex;
+    height: 450px;
+    min-width: 500px;
+    background: url("https://1.bp.blogspot.com/-IfIjGbPzKmA/YDeuL2wzXmI/AAAAAAAA4Po/NGNwjgCPPYI2fz-NmqyL0gUvrKUefiOdwCLcBGAsYHQ/s0/Flag_of_Iran.gif");
+    background-size: cover;
+    margin-right:10px ;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.topics1{
+    display:flex;
+    background: url("https://1.bp.blogspot.com/-IJb2Pl8yBsM/YEaK2N8Ur2I/AAAAAAAA5EQ/PmWjHPHzyDI-pJjEs6Z-a_rA87EMYFnHwCLcBGAsYHQ/s0/Flag_of_Ukraine.gif");
+    width:flex;
+    height: 450px;
+    min-width: 500px;
+    background-size: cover;
+    background-position: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.topics1 h2{
+    color:#00539cff;
+    font-size: 40px;
+    font-weight: 900;
+}
+.topics1 h5{
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+}
+.topics2{
+    display: flex;
+    background: url("https://1.bp.blogspot.com/-R3-bN0TPKV8/YEUdem-krtI/AAAAAAAA4_o/rxY4cpPib3YUf6a1_UxvI5KqPwYYj4XmgCLcBGAsYHQ/s0/Flag_of_Tanzania.gif");
+    background-size: cover;
+    width:flex;
+    height: 450px;
+    min-width: 500px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+.topics2 h2{
+    color:rgba(247, 250, 253, 0.89);
+    font-size: 50px;
+    font-weight: 900;
+    max-width: 300px;
+}
+.topics2 h5{
+    color:rgb(243, 186, 208);
+    font-size: 20px;
+    font-weight: 700;
+}
+.topics h2{
+    color:#00539cff;
+    font-size: 40px;
+    font-weight: 900;
+    max-width: 300px;
+}
+.topics h5{
+    color:rgb(253, 253, 253);
+    font-size: 20px;
+    font-weight: 700;
+}
+.topics h5:hover{
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.topics1 h5:hover{
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.topics2 h5:hover{
+    background-color: rgba(0, 0, 0, 0.685);
+}
+
+
+/* about us*/
+.about{
+    display: flex;
+    font-size: 50px;
+    justify-content: center;
+}
+.aboutme{
+    width:480px;
+}
+.abits{
+    background-color: rgb(133, 133, 133);
+}
+.abots{
+    background-color: #fad0c9ff;
+}
+.abets{
+    background-color: #6699cc;
+}
+
+/* gallery*/
+.photo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight:900 ;
+}
+
+
+
+/* bottom navigation */
+.end{
+	background-color: rgba(51, 51, 51, 0.795);
+	height: flex;
+	width:flex;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 0px;
+
+}
+
+.social-medias{
+	margin-bottom: 10px;
+	margin-top:20px;
+}
+.insta-logo{
+	height:30px;
+	width:30px;
+	cursor: pointer;
+}
+.whatsvg{
+	height:30px;
+	width:30px;
+    margin-left:5px;
+	cursor: pointer;
+}
+.fb{
+	height:30px;
+	width:30px;
+    margin-left:5px;
+	cursor: pointer;
+}
+.twitter{
+	height:30px;
+	width:30px;
+    margin-left:5px;
+	cursor: pointer;
+}
+/* support logos*/
+.support{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px;
+}
+.support img{
+	margin-left: 15px;
+}
+.atclogo{
+	height:40px;
+	width:40px;
+}
+.atcword{
+	height:30px;
+	width:60px;
+}
+.unicef{
+	height:40px;
+	width:180px;
+	margin-right: 15px;
+}
+.unhcr{
+	height:40px;
+	width:150px;
+}
+.citso{
+	height:50px;
+	width:100px;
+}
+
+.info{
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color:#ccc;	
+}
+.info div{
+	margin-bottom:10px;
+	margin-top:2px;
+}
+.info a{
+	text-decoration: none;
+}
+.info a:hover{
+	color:aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 750px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: -15px -10px 15px 5px black;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  transition: 2s;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+.nmb{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.acinfo{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.phoneinfo{
+    font-size: 25px; 
+}
+
+
+
+
+
+
+
+
+
+/* Style the modal */
+.modal {
+    display: flex; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+     /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow:auto;/* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  .pictures img{
+       margin-left: 250px;
+       object-fit: contain;
+       width:50%;
+       height:50%;
+       margin-top:150px;
+  }
+  .modal-content{
+    margin: auto;
+  display: block;
+    overflow: auto;
+  }
+  
+  
+  /* Caption of Modal Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation */
+  .modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Responsive Grid */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  
